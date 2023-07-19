@@ -1,0 +1,90 @@
+h1 {
+  color: #28eea7;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #363738;
+}
+
+form {
+
+  font-size: 25px;
+  color: white;
+}
+
+.labelmod {
+
+  font-size: 20px;
+}
+
+.fwidth {
+  width: 250px;
+  height: 30px;
+}
+
+#btn {
+  display: block;
+  width: 180px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.formdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tablediv {
+  display: flex;
+  border: 5px solid #28eea7;
+  padding: 40px;
+}
+
+
+td {
+  padding: 10px;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #28eea7;
+  color: white;
+  font-size: 20px;
+
+}
+
+th {
+  padding: 10px;
+  width: 7px;
+  height: 40px;
+  border: 1px solid #28eea7;
+  color: white;
+  font-size: 20px;
+}
+
+#total {
+  margin-top: 2%;
+  margin-left: 52%;
+  font-size: 25px;
+  color: white;
+}
+
+.outtertable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#expense-tracker-list {
+  display: none;
+  visibility: hidden;
+
+}
+
+table {
+
+  border-collapse: collapse;
+}
