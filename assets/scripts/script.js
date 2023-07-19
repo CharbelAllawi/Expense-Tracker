@@ -20,7 +20,6 @@ $(document).ready(function () {
     var totalSum = calculateTotalSum();
     $("#total").text("Total : " + totalSum);
   });
-
   // the below function is to calculate the total sum
   function calculateTotalSum() {
     var total = 0;
