@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="assets/scripts/script.js"></script>
+</head>
+
+<body>
+  <h1>Expense Tracker</h1>
+  <div class="formdiv">
+    <form id="myform">
+      <label class="labelmod" for="expname">Expense Name</label><br>
+      <input id="expname" type="text" size="30" class="fwidth" placeholder="Name of expense"><br><br>
+      <label class="labelmod " for=" amount">Amount</label><br>
+      <input id="amount" type="text" size="30" class="fwidth" placeholder="Enter amount"><br><br>
+      <button type="button" id="btn">Add</button>
+    </form>
+  </div>
+
+  <br><br><br>
+
+
+  <div class="outtertable">
+    <div class="tablediv">
+      <table>
+        <tr>
+          <th>Expense Name</th>
+          <th>Amount</th>
+          <th>Delete</th>
+
+
+        </tr>
+      </table>
+    </div>
+
+
+  </div>
+  <div id="total">Total: 0</div>
+
+  <br><br>
+
+
+</body>
+
+</html>
